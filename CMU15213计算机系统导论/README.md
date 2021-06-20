@@ -2,8 +2,6 @@
 
 教授：Randal E. Bryant & David R. O'Hallaron
 
-教材主页
-
 评论贡献者：[Jinming Hu](https://conanhujinming.github.io/)
 
 - [x] Videos [bilibili](https://www.bilibili.com/video/BV1iW411d7hd?from=search&seid=11952614108851410743), [youtube](https://www.youtube.com/watch?v=4CpHpFu_KYM&list=PL4YtNpAhVHFJVlaD203_8JkUOUT8RYUhY&index=1)
