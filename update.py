@@ -8,8 +8,8 @@ EXCLUDE_DIRS = ['.git', 'docs', '.vscode', '.circleci', 'site']
 README_MD = ['README.md', 'readme.md', 'index.md']
 
 TXT_EXTS = ['md', 'txt']
-TXT_URL_PREFIX = 'https://github.com/conanhujinming/comments-for-awesome-courses/blob/master/'
-BIN_URL_PREFIX = 'https://github.com/conanhujinming/comments-for-awesome-courses/raw/master/'
+TXT_URL_PREFIX = 'https://github.com/conanhujinming/comments-for-awesome-courses/blob/main/'
+BIN_URL_PREFIX = 'https://github.com/conanhujinming/comments-for-awesome-courses/raw/main/'
 
 
 def list_files(course: str):
