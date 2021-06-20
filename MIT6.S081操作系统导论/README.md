@@ -40,7 +40,17 @@
    xv6的主分支上已经修复了这个问题。但是2020版的前几个lab没merge这个patch，需要自己在.gdbinit.tmpl-riscv里加一行`set riscv use-compressed-breakpoints yes`
 
 关于后面lab的注意事项，可以加入[6.S081学习交流群](https://zhuanlan.zhihu.com/p/251366985)了解。
-
+## 关于在mac上的环境搭建
+* 大部分参考https://zhayujie.com/mit6828-env.html
+* qemu
+   * 版本为5.1.0 手动make（可能需要多次make才会成功）
+   * 下载地址 https://download.qemu.org/
+* xv6 需要clone2020课程的仓库，但是链接感觉失效了，需要自己百度一下clone。
+* RISC-V工具链：
+   *  版本9.2.0 （不要用brew安装，因为会在gdb调试时出问题）
+   *  下载地址：第一个链接里给出了，用博主给的下载链接自行make
+   *  注意！在make前修改一下源码 在riscv-gdb/readline/rltty.c 和 riscv-gdb/readline/terminal.c 中添加头文件#include<sys/ioctl.h>
+   *  如果变异中途退出，记得多变异几次，大概持续30min-60min。
 ## 非官方资料推荐
 
 1. 强推[肖宏辉大神](https://www.zhihu.com/people/xiao-hong-hui-15)的[课程内容翻译](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/)。
