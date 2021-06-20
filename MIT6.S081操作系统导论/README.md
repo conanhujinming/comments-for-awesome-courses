@@ -4,12 +4,12 @@
 
 评论贡献者：[Jinming Hu](https://conanhujinming.github.io/)
 
-- [x] Videos，[Youtube](https://pdos.csail.mit.edu/6.S081/2020/schedule.html), [B站](https://search.bilibili.com/all?keyword=6.s081&from_source=webtop_search&spm_id_from=333.851)
+- [X] Videos，[Youtube](https://pdos.csail.mit.edu/6.S081/2020/schedule.html), [B站](https://search.bilibili.com/all?keyword=6.s081&from_source=webtop_search&spm_id_from=333.851)
 
-- [x] [Lab x 11](https://pdos.csail.mit.edu/6.S081/2020/labs/guidance.html)
-- [x] [AutoGrader](https://pdos.csail.mit.edu/6.S081/2020/labs/guidance.html) 
+- [X] [Lab x 11](https://pdos.csail.mit.edu/6.S081/2020/labs/guidance.html)
+- [X] [AutoGrader](https://pdos.csail.mit.edu/6.S081/2020/labs/guidance.html) 
 
-- [x] [Slides & Reading](https://pdos.csail.mit.edu/6.S081/2020/schedule.html)
+- [X] [Slides & Reading](https://pdos.csail.mit.edu/6.S081/2020/schedule.html)
 
 ## 课程信息
 

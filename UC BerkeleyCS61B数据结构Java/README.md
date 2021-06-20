@@ -4,12 +4,12 @@
 
 评论贡献者：[sfumecjf](https://github.com/SFUMECJF)
 
-- [x] Videos，[Youtube](https://joshhug.gitbooks.io/hug61b/content/chap1/chap11.html), [B站](https://www.bilibili.com/video/BV1SW411P7hX?from=search&seid=15304785161712085954)
+- [X] Videos，[Youtube](https://joshhug.gitbooks.io/hug61b/content/chap1/chap11.html), [B站](https://www.bilibili.com/video/BV1SW411P7hX?from=search&seid=15304785161712085954)
 
-- [x] [LabHW x 40](https://sp18.datastructur.es/)
-- [x] [AutoGrader](https://gradescope.com/) 
+- [X] [LabHW x 40](https://sp18.datastructur.es/)
+- [X] [AutoGrader](https://gradescope.com/) 
 
-- [x] [Slides & Reading](https://docs.google.com/presentation/d/12Fp-hjYhdFL7EcVqpNGpFb2BdCL2gr1SFOS5E6pyohg/edit#slide=id.g3ad1dc4a7_00)
+- [X] [Slides & Reading](https://docs.google.com/presentation/d/12Fp-hjYhdFL7EcVqpNGpFb2BdCL2gr1SFOS5E6pyohg/edit#slide=id.g3ad1dc4a7_00)
 
 ## 课程信息
 

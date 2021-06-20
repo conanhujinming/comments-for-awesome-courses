@@ -4,10 +4,10 @@
 
 评论贡献者：[WangAShao](https://github.com/WangAShao)
 
-- [x] [Project x 4 & HomeWork x 5](https://15445.courses.cs.cmu.edu/fall2020/assignments.html)
-- [x] [AutoGrader](https://www.gradescope.com/courses/195440) 
-- [x] Videos [bilibili](https://www.bilibili.com/video/BV1q741127SQ), [youtube](https://www.youtube.com/watch?v=oeYBdghaIjc), [simviso中文翻译-付费](https://www.simtoco.com/#/albums?id=1000013)
-- [x] [Complete Notes & Slides](https://15445.courses.cs.cmu.edu/fall2020/schedule.html#)
+- [X] [Project x 4 & HomeWork x 5](https://15445.courses.cs.cmu.edu/fall2020/assignments.html)
+- [X] [AutoGrader](https://www.gradescope.com/courses/195440) 
+- [X] Videos [bilibili](https://www.bilibili.com/video/BV1q741127SQ), [youtube](https://www.youtube.com/watch?v=oeYBdghaIjc), [simviso中文翻译-付费](https://www.simtoco.com/#/albums?id=1000013)
+- [X] [Complete Notes & Slides](https://15445.courses.cs.cmu.edu/fall2020/schedule.html#)
 
 ## 课程信息
 

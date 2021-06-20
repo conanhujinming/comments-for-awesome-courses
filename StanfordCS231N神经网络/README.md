@@ -4,10 +4,10 @@
 
 评论贡献者：[Zhang-Each](https://github.com/Zhang-Each)
 
-- [x] Videos：B站上到处都是，还有字幕
-- [x] Assignment * 3，每个Assignment工作量都比较大，可以分割成更小的
-- [x] AutoGrader：每个notebook中自带一些测试用例，足够验证代码的正确性
-- [x] Slides & Reading：见课程网站
+- [X] Videos：B站上到处都是，还有字幕
+- [X] Assignment * 3，每个Assignment工作量都比较大，可以分割成更小的
+- [X] AutoGrader：每个notebook中自带一些测试用例，足够验证代码的正确性
+- [X] Slides & Reading：见课程网站
 
 ## 课程信息
 
