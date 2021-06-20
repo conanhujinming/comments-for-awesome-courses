@@ -1,6 +1,7 @@
 site_name: 名校公开课程评价网
 theme:
   name: material
+  language: 'zh'
 repo_url: https://github.com/conanhujinming/comments-for-awesome-courses/
 markdown_extensions:
   - def_list
@@ -10,4 +11,4 @@ plugins:
   - search:
       lang:
         - en
-        - jp
+        - zh
