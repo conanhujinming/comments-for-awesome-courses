@@ -3,3 +3,5 @@ theme: readthedocs
 repo_url: https://github.com/conanhujinming/comments-for-awesome-courses/
 markdown_extensions:
   - def_list
+  - pymdownx.tasklist:
+        custom_checkbox: true
