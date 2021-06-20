@@ -8,4 +8,4 @@ markdown_extensions:
         custom_checkbox: true
 extra:
   search:
-    language: 'en, zh'
+    language: 'jp'
