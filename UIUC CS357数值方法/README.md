@@ -1,4 +1,4 @@
-课号：[CS357](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/)
+课号：[CS357 Numerical Methods I](https://courses.engr.illinois.edu/cs357/sp2021/pages/resources.html)
 
 教授：Prof. Mariana Silva & Tom Gambill & and many
 
