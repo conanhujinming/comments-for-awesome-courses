@@ -6,10 +6,10 @@
 
 - [ ] Videos：有mooc版本的，我觉得讲得不好，这里就不贴了
 
-- [X] [Lab x 7](https://pdos.csail.mit.edu/6.S081/2020/labs/guidance.html)
-- [X] [AutoGrader](https://pdos.csail.mit.edu/6.S081/2020/labs/guidance.html) 
+- [X] [Lab x 7](https://cs144.github.io/)
+- [X] [AutoGrader](https://cs144.github.io/) 
 
-- [X] [Slides & Reading](https://pdos.csail.mit.edu/6.S081/2020/schedule.html)
+- [X] [Slides & Reading](https://cs144.github.io/)
 
 ## 课程信息
 
