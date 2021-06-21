@@ -7,7 +7,7 @@
 - [X] Videos，[Youtube](https://www.youtube.com/watch?v=HtSuA80QTyo&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb), [B站](https://search.bilibili.com/all?keyword=6.006&from_source=webtop_search&spm_id_from=333.851)
 
 - [X] [Assignment x 7](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/assignments/)
-- [X] [AutoGrader](https://pdos.csail.mit.edu/6.S081/2020/labs/guidance.html) 
+- [X] [AutoGrader](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/assignments/) 
 
 - [X] [Reading](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/readings/)：即《Introduction to Algorithms》(算法导论)
 
