@@ -35,7 +35,7 @@
 
 ## 需要注意的坑点
 
-基本没有坑点，只是[配置autograder]((https://github.com/SFUMECJF/cs61b-study-guide/blob/main/1-autograder%E9%85%8D%E7%BD%AE.md))麻烦一些。
+基本没有坑点，只是[配置autograder](https://github.com/SFUMECJF/cs61b-study-guide/blob/main/1-autograder%E9%85%8D%E7%BD%AE.md)麻烦一些。
 
 一起找小伙伴组队学习，可以加入[cs61b学习交流微信群](https://mp.weixin.qq.com/s/oZDGkY34wLGW5KxCGYcWgA)以及QQ群：913236113了解。
 
