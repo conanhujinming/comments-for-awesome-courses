@@ -1,4 +1,4 @@
-# 名校公开课程评价网
+# [名校公开课程评价网](https://conanhujinming.github.io/comments-for-awesome-courses/)
 
 ## 前言
 
