@@ -41,7 +41,7 @@
 
 ## 非官方资料推荐
 
-暂无
+[bilibili野生组队学习分享](https://www.bilibili.com/video/BV1gb4y1k7CX?from=search&seid=4348023703661079210)
 
 ## 后续课程推荐
 
