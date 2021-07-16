@@ -30,10 +30,17 @@
 
 - 缺点：
   - 有些guide的讨论或者问题没有答案
+  - 部分guide答案：
+    - [Priceton Exams](https://www.cs.princeton.edu/courses/archive/fall20/cos226/exams.php)
+    - [Priceton Exams2](https://www.cs.princeton.edu/courses/archive/fall13/cos226/exams.php)
+    - [61b Exams](https://hkn.eecs.berkeley.edu/exams/course/cs/61b)
+    - [61b Exams2](https://tbp.berkeley.edu/courses/cs/61B/)
 
 视个人基础，大概需要100到200小时左右的学习时间。
 
 ## 需要注意的坑点
+
+sp18年autograder注册码:MNXYKX
 
 基本没有坑点，只是[配置autograder](https://github.com/SFUMECJF/cs61b-study-guide/blob/main/1-autograder%E9%85%8D%E7%BD%AE.md)麻烦一些。
 

@@ -1,4 +1,4 @@
-课号: [UC Berkeley CS 61A](https://inst.eecs.berkeley.edu/~cs61a/fa20/)
+课号: [*UC* Berkeley CS 61A](https://inst.eecs.berkeley.edu/~cs61a/fa20/)
 
 教授: [John DeNero](https://denero.org/) & [Hany Farid](https://farid.berkeley.edu/)
 
