@@ -1,4 +1,4 @@
-# [名校公开课程评价网](https://conanhujinming.github.io/comments-for-awesome-courses/)
+# 名校公开课程评价网
 
 ## 前言
 
@@ -32,6 +32,8 @@
 - 后续课程推荐
 
 等等。由于一门课程可能会有多个评价，大家可以在提供个人评价的时候附上自己的相关信息（如ID或主页）。
+
+内容可在[本项目主页查看](https://conanhujinming.github.io/comments-for-awesome-courses/)
 
 ## 贡献
 
