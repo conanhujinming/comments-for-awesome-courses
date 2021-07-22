@@ -2,10 +2,10 @@
 
 教授：[Jure Leskovec](https://profiles.stanford.edu/jure-leskovec)
 
-评论贡献者：[Zhangzhi Peng](https://github.com/pengzhangzhi/)
+评论贡献者：[Zhangzhi Peng](https://github.com/pengzhangzhi/)，[Zhang-Each](https://github.com/Zhang-Each)
 
 - [x] Videos [bilibili](https://www.bilibili.com/video/BV1RZ4y1c7Co/?spm_id_from=333.788.recommend_more_video.0)
-- [x] [Lab x 11](http://web.stanford.edu/class/cs224w/projects.html)
+- [x] [Lab x 5](http://web.stanford.edu/class/cs224w/projects.html)
 - [x] [Complete Notes & Slides](http://web.stanford.edu/class/cs224w/index.html#schedule)
 
   
@@ -54,6 +54,7 @@ leskovec绝对是图神经网络的大神，去查阅文献的时候就能发现
 ## 非官方资料推荐
 
 - 我自己写的图神经网络入门资料：[序言：图神经网络入门（坑） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/370944518)
+- [2021.7.22新增]我在学习CS224W时做的一些笔记，点击[这里](https://github.com/Zhang-Each/Awesome-CS-Course-Learning-Notes/tree/master/cs224w-GraphML%26GNN)，喜欢的话也可以点个⭐呀
 
 ## 后续课程推荐
 
