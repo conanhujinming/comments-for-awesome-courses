@@ -7,7 +7,7 @@
 - [x] Videos [bilibili](https://www.bilibili.com/video/BV1iW411d7hd?from=search&seid=11952614108851410743), [youtube](https://www.youtube.com/watch?v=4CpHpFu_KYM&list=PL4YtNpAhVHFJVlaD203_8JkUOUT8RYUhY&index=1)
 - [X] [Lab x 11](http://csapp.cs.cmu.edu/3e/labs.html)
 - [x] [AutoGrader](http://csapp.cs.cmu.edu/3e/labs.html) 
-- [X] [Complete Notes & Slides](https://www.cs.cmu.edu/~213/index.html)
+- [X] [Slides](https://www.cs.cmu.edu/~213/index.html)
 - [X] [教材主页](https://csapp.cs.cmu.edu/)
 
 ## 课程信息
