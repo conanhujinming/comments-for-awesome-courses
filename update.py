@@ -34,28 +34,39 @@ def list_files(course: str):
     return filelist_texts, readme_path
 
 
-def generate_md(course: str, filelist_texts: str, readme_path: str):
-    final_texts = ['\n\n', filelist_texts]
+def generate_md(course: str, filelist_texts: str, readme_path: str, topic: str):
+    final_texts = ['\n\n'.encode(), filelist_texts.encode()]
     if readme_path:
-        with open(readme_path, 'r') as file:
+        with open(readme_path, 'rb') as file:
             final_texts = file.readlines() + final_texts
-    with open('docs/{}.md'.format(course), 'w') as file:
+    topic_path = os.path.join('docs', topic)
+    if not os.path.isdir(topic_path):
+        os.mkdir(topic_path)
+    with open(os.path.join(topic_path, '{}.md'.format(course)), 'wb') as file:
         file.writelines(final_texts)
+        
 
 
 if __name__ == '__main__':
     if not os.path.isdir('docs'):
         os.mkdir('docs')
 
-    courses = list(filter(lambda x: os.path.isdir(x) and (
-        x not in EXCLUDE_DIRS), os.listdir('.')))  # list courses
+    topics = list(filter(lambda x: os.path.isdir(x) and (
+        x not in EXCLUDE_DIRS), os.listdir('.')))  # list topics
 
-    for course in courses:
-        filelist_texts, readme_path = list_files(course)
-        generate_md(course, filelist_texts, readme_path)
+    for topic in topics:
+        topic_path = os.path.join('.', topic)
 
-    with open('README.md', 'r') as file:
+        courses = list(filter(lambda x: os.path.isdir(os.path.join(topic_path, x)) and (
+            x not in EXCLUDE_DIRS), os.listdir(topic_path)))  # list courses
+
+        for course in courses:
+            course_path = os.path.join(".", topic, course)
+            filelist_texts, readme_path = list_files(course_path)
+            generate_md(course, filelist_texts, readme_path, topic)
+
+    with open('README.md', 'rb') as file:
         mainreadme_lines = file.readlines()
 
-    with open('docs/index.md', 'w') as file:
+    with open('docs/index.md', 'wb') as file:
         file.writelines(mainreadme_lines)
