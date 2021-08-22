@@ -59,5 +59,5 @@ Project IV: 实现程序的并行计算，尽可能缩短程序的运行时间�
 ## 后续课程推荐
 
 - [Berkeley CS162](https://cs162.org)
-- [CMU 15213](https://github.com/conanhujinming/comments-for-awesome-courses/tree/main/CMU15213%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%AF%BC%E8%AE%BA)
-- [MIT 6.S081](https://conanhujinming.github.io/comments-for-awesome-courses/MIT6.S081%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AF%BC%E8%AE%BA.html)
+- [CMU 15213](https://conanhujinming.github.io/comments-for-awesome-courses/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/CMU15213%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%AF%BC%E8%AE%BA/)
+- [MIT 6.S081](https://conanhujinming.github.io/comments-for-awesome-courses/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/MIT6.S081%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AF%BC%E8%AE%BA/)
