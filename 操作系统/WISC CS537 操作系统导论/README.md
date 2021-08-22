@@ -10,17 +10,17 @@
 
 
 
-\- [x] Videos [bilibili](https://www.bilibili.com/video/BV19J411t7te?from=search&seid=9791370642965495765), [Youtube(官网链接)](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Discussion/videos.htmlY&index=1)
+- [X] Videos [bilibili](https://www.bilibili.com/video/BV19J411t7te?from=search&seid=9791370642965495765), [Youtube(官网链接)](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Discussion/videos.htmlY&index=1)
 
-\- [X] [Project x 12](https://github.com/remzi-arpacidusseau/ostep-projects)
+- [X] [Project x 12](https://github.com/remzi-arpacidusseau/ostep-projects)
 
-\- [X] [Homework x N](https://github.com/remzi-arpacidusseau/ostep-homework)
+- [X] [Homework x N](https://github.com/remzi-arpacidusseau/ostep-homework)
 
-\- [X] [AutoGrader](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/tester) 
+- [X] [AutoGrader](https://github.com/remzi-arpacidusseau/ostep-projects/tree/master/tester) 
 
-\- [X] [Slides](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Discussion/videos.html)
+- [X] [Slides](https://pages.cs.wisc.edu/~remzi/Classes/537/Spring2018/Discussion/videos.html)
 
-\- [X] [教材主页](https://pages.cs.wisc.edu/~remzi/OSTEP/)
+- [X] [教材主页](https://pages.cs.wisc.edu/~remzi/OSTEP/)
 
 
 
@@ -60,7 +60,7 @@
 
 
 
-\- 暂无
+- 暂无
 
 
 
@@ -68,4 +68,4 @@
 
 与6.S081一致
 
-\- [MIT 6.S081](https://conanhujinming.github.io/comments-for-awesome-courses/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/MIT6.S081%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AF%BC%E8%AE%BA/) 
+- [MIT 6.S081](https://conanhujinming.github.io/comments-for-awesome-courses/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/MIT6.S081%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AF%BC%E8%AE%BA/) 
