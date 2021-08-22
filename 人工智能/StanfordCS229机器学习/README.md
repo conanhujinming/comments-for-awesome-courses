@@ -32,6 +32,6 @@
 
 ## 后续课程推荐
 
-- [Stanford CS231N](https://conanhujinming.github.io/comments-for-awesome-courses/StanfordCS231N%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.html)：可以说是入门深度学习最好的课程之一了。
+- [Stanford CS231N](https://conanhujinming.github.io/comments-for-awesome-courses/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/StanfordCS231N%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/)：可以说是入门深度学习最好的课程之一了。
 - [Stanford CS224n](http://web.stanford.edu/class/cs224n/)：入门深度学习做NLP的最好课程之一。
 - [Berkeley CS285](http://rll.berkeley.edu/deeprlcourse/)：深度强化学习。
