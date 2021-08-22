@@ -54,4 +54,4 @@ Project Cat中的掷色子游戏，应该是每一个小回合算作一个回合
 
 ## 后续课程推荐
 
-- [CS61B](https://github.com/conanhujinming/comments-for-awesome-courses/tree/main/UC%20BerkeleyCS61B%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84Java)
+- [CS61B](https://conanhujinming.github.io/comments-for-awesome-courses/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/UC%20BerkeleyCS61B%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84Java/)
