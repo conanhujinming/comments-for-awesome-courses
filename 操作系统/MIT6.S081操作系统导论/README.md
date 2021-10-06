@@ -50,7 +50,7 @@
    *  版本9.2.0 （不要用brew安装，因为会在gdb调试时出问题）
    *  下载地址：第一个链接里给出了，用博主给的下载链接自行make
    *  注意！在make前修改一下源码 在riscv-gdb/readline/rltty.c 和 riscv-gdb/readline/terminal.c 中添加头文件#include<sys/ioctl.h>
-   *  如果变异中途退出，记得多变异几次，大概持续30min-60min。
+   *  如果编译中途退出，记得多编译几次，大概持续30min-60min。
 ## 非官方资料推荐
 
 1. 强推[肖宏辉大神](https://www.zhihu.com/people/xiao-hong-hui-15)的[课程内容翻译](https://mit-public-courses-cn-translatio.gitbook.io/mit6-s081/)。
