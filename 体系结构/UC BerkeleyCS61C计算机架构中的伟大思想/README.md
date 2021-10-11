@@ -46,6 +46,7 @@ Project IV: 实现程序的并行计算，尽可能缩短程序的运行时间�
   - Homework不对外开放
   - Lab和Project的也不能提交，完成后推荐在[这里](https://github.com/PKUFlyingPig/CS61C-summer20)核对答案
   - 目前61C之前学期的资源在维护中......
+  - 和 15-213 的重合度较大，看过 CSAPP 的人可能需要跳过许多 Lecture
 
 ## 需要注意的坑点
 
