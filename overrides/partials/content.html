@@ -1,0 +1,42 @@
+<!-- Add copied contents from original content.html here -->
+{#-
+  This file was automatically generated - do not edit
+-#}
+{% if page.edit_url %}
+<a href="{{ page.edit_url }}" title="{{ lang.t('edit.link.title') }}" class="md-content__button md-icon">
+  {% include ".icons/material/pencil.svg" %}
+</a>
+{% endif %}
+{% if not "\x3ch1" in page.content %}
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+{{ page.content }}
+{% if page and page.meta and (
+  page.meta.git_revision_date_localized or
+  page.meta.revision_date
+) %}
+  {% include "partials/source-file.html" %}
+{% endif %}
+
+<!-- Get setting from mkdocs.yml, but allow page-level overrides -->
+{% set disqus = config.extra.disqus %}
+{% if page and page.meta and page.meta.disqus is string %}
+  {% set disqus = page.meta.disqus %}
+{% endif %}
+
+<!-- Inject Disqus into current page -->
+{% if disqus %}
+  <script src="https://giscus.app/client.js"
+          data-repo="shenhao-stu/comments-for-awesome-courses"
+          data-repo-id="R_kgDOGcNbZg"
+          data-category="General"
+          data-category-id="DIC_kwDOGcNbZs4CAEg3"
+          data-mapping="pathname"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-theme="light"
+          data-lang="zh-CN"
+          crossorigin="anonymous"
+          async>
+  </script>
+{% endif %}
