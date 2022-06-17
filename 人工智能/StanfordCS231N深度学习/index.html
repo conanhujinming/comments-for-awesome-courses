@@ -1,0 +1,1598 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-7.3.6">
+    
+    
+      
+        <title>StanfordCS231N深度学习 - 名校公开课程评价网</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.a57b2b03.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="名校公开课程评价网" class="md-header__button md-logo" aria-label="名校公开课程评价网" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            名校公开课程评价网
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              StanfordCS231N深度学习
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/conanhujinming/comments-for-awesome-courses/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="名校公开课程评价网" class="md-nav__button md-logo" aria-label="名校公开课程评价网" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    名校公开课程评价网
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/conanhujinming/comments-for-awesome-courses/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        名校公开课程评价网
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          人工智能
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="人工智能" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          人工智能
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Stanford%20CS224W%E5%9B%BE%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" class="md-nav__link">
+        Stanford CS224W图机器学习
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../StanfordCS224N%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86/" class="md-nav__link">
+        StanfordCS224N自然语言处理
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../StanfordCS229%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" class="md-nav__link">
+        StanfordCS229机器学习
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          StanfordCS231N深度学习
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        StanfordCS231N深度学习
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    课程信息
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    适合人群
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    课程评价
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    非官方资料推荐
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    后续课程推荐
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    文件列表
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../StanfordCS520%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1/" class="md-nav__link">
+        StanfordCS520知识图谱
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../UC%20BerkeleyCS188%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AF%BC%E8%AE%BA/" class="md-nav__link">
+        UC BerkeleyCS188人工智能导论
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          体系结构
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="体系结构" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          体系结构
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/UC%20BerkeleyCS61C%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%9E%B6%E6%9E%84%E4%B8%AD%E7%9A%84%E4%BC%9F%E5%A4%A7%E6%80%9D%E6%83%B3/" class="md-nav__link">
+        UC BerkeleyCS61C计算机架构中的伟大思想
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          其他课程
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="其他课程" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          其他课程
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%85%B6%E4%BB%96%E8%AF%BE%E7%A8%8B/MIT6.NULL%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%E4%BB%8B%E7%BB%8D/" class="md-nav__link">
+        MIT6.NULL实用工具介绍
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          分布式系统
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="分布式系统" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          分布式系统
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/MIT6.824%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/" class="md-nav__link">
+        MIT6.824分布式系统
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/Talent%20Plan%20tinykv%E5%88%86%E5%B8%83%E5%BC%8F%E9%94%AE%E5%80%BC%E5%AD%98%E5%82%A8%E7%B3%BB%E7%BB%9F/" class="md-nav__link">
+        Talent Plan tinykv分布式键值存储系统
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          前后端
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="前后端" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          前后端
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%89%8D%E5%90%8E%E7%AB%AF/J%C3%B6nk%C3%B6pingTGWK18%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BB%BA%E7%AB%8B%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99/" class="md-nav__link">
+        JönköpingTGWK18前后端建立个人网站
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7">
+          操作系统
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="操作系统" data-md-level="1">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          操作系统
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/CMU15213%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%AF%BC%E8%AE%BA/" class="md-nav__link">
+        CMU15213计算机系统导论
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/MIT6.S081%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AF%BC%E8%AE%BA/" class="md-nav__link">
+        MIT6.S081操作系统导论
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/NJU%20%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%EF%BC%9A%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%AE%9E%E7%8E%B0/" class="md-nav__link">
+        NJU 操作系统：设计与实现
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/WISC%20CS537%20%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AF%BC%E8%AE%BA/" class="md-nav__link">
+        WISC CS537 操作系统导论
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_8">
+          数值方法
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="数值方法" data-md-level="1">
+        <label class="md-nav__title" for="__nav_8">
+          <span class="md-nav__icon md-icon"></span>
+          数值方法
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%95%B0%E5%80%BC%E6%96%B9%E6%B3%95/UIUC%20CS357%E6%95%B0%E5%80%BC%E6%96%B9%E6%B3%95/" class="md-nav__link">
+        UIUC CS357数值方法
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9">
+          数学
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="数学" data-md-level="1">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          数学
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%95%B0%E5%AD%A6/CMU15458%E7%A6%BB%E6%95%A3%E5%BE%AE%E5%88%86%E5%87%A0%E4%BD%95/" class="md-nav__link">
+        CMU15458离散微分几何
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%95%B0%E5%AD%A6/MIT18.06%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0/" class="md-nav__link">
+        MIT18.06线性代数
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%95%B0%E5%AD%A6/MIT6.042J%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%BA%94%E7%94%A8%E6%95%B0%E5%AD%A6/" class="md-nav__link">
+        MIT6.042J计算机应用数学
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_10">
+          数据库
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="数据库" data-md-level="1">
+        <label class="md-nav__title" for="__nav_10">
+          <span class="md-nav__icon md-icon"></span>
+          数据库
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%95%B0%E6%8D%AE%E5%BA%93/CMU15445%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/" class="md-nav__link">
+        CMU15445数据库系统设计
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%95%B0%E6%8D%AE%E5%BA%93/CMU15721%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E5%BA%93/" class="md-nav__link">
+        CMU15721高级数据库
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_11">
+          数据科学
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="数据科学" data-md-level="1">
+        <label class="md-nav__title" for="__nav_11">
+          <span class="md-nav__icon md-icon"></span>
+          数据科学
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/UC%20BerkeleyData100%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E4%B8%8E%E6%96%B9%E6%B3%95/" class="md-nav__link">
+        UC BerkeleyData100数据科学技术与方法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/UC%20BerkeleyData8%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%9F%BA%E7%A1%80/" class="md-nav__link">
+        UC BerkeleyData8数据科学基础
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_12" type="checkbox" id="__nav_12" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_12">
+          数据结构与算法
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="数据结构与算法" data-md-level="1">
+        <label class="md-nav__title" for="__nav_12">
+          <span class="md-nav__icon md-icon"></span>
+          数据结构与算法
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/MIT6.006%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" class="md-nav__link">
+        MIT6.006数据结构与算法
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/UC%20BerkeleyCS61B%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84Java/" class="md-nav__link">
+        UC BerkeleyCS61B数据结构Java
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_13" type="checkbox" id="__nav_13" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_13">
+          编程语言
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="编程语言" data-md-level="1">
+        <label class="md-nav__title" for="__nav_13">
+          <span class="md-nav__icon md-icon"></span>
+          编程语言
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/MIT6.0001Python%E8%AF%AD%E8%A8%80/" class="md-nav__link">
+        MIT6.0001Python语言
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/MSU%20C%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/" class="md-nav__link">
+        MSU C编程语言
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/StandfordCS110L%E7%B3%BB%E7%BB%9F%E7%BC%96%E7%A8%8B%E4%B8%AD%E7%9A%84%E5%AE%89%E5%85%A8%28Rust%29/" class="md-nav__link">
+        StandfordCS110L系统编程中的安全(Rust)
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_14" type="checkbox" id="__nav_14" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_14">
+          编译原理
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="编译原理" data-md-level="1">
+        <label class="md-nav__title" for="__nav_14">
+          <span class="md-nav__icon md-icon"></span>
+          编译原理
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/StanfordCS143%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/" class="md-nav__link">
+        StanfordCS143编译原理
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_15" type="checkbox" id="__nav_15" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_15">
+          计算机图形学
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="计算机图形学" data-md-level="1">
+        <label class="md-nav__title" for="__nav_15">
+          <span class="md-nav__icon md-icon"></span>
+          计算机图形学
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/UofT_CSC417%E7%89%A9%E7%90%86%E6%A8%A1%E6%8B%9F/" class="md-nav__link">
+        UofT CSC417物理模拟
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_16" type="checkbox" id="__nav_16" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_16">
+          计算机导论
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="计算机导论" data-md-level="1">
+        <label class="md-nav__title" for="__nav_16">
+          <span class="md-nav__icon md-icon"></span>
+          计算机导论
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AF%BC%E8%AE%BA/UC%20BerkeleyCS61A%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%9E%84%E9%80%A0%E4%B8%8E%E8%A7%A3%E9%87%8A/" class="md-nav__link">
+        UC BerkeleyCS61A计算机程序的构造与解释
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_17" type="checkbox" id="__nav_17" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_17">
+          计算机网络
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="计算机网络" data-md-level="1">
+        <label class="md-nav__title" for="__nav_17">
+          <span class="md-nav__icon md-icon"></span>
+          计算机网络
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/StanfordCS144%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" class="md-nav__link">
+        StanfordCS144计算机网络
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/%E4%B8%AD%E7%A7%91%E5%A4%A7%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/" class="md-nav__link">
+        中科大计算机网络
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_18" type="checkbox" id="__nav_18" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_18">
+          高性能计算
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="高性能计算" data-md-level="1">
+        <label class="md-nav__title" for="__nav_18">
+          <span class="md-nav__icon md-icon"></span>
+          高性能计算
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/CMU15418%20%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/" class="md-nav__link">
+        CMU15418 并行计算
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/UT%20PHP.16.01x%E9%AB%98%E6%80%A7%E8%83%BD%E8%AE%A1%E7%AE%97/" class="md-nav__link">
+        UT PHP.16.01x高性能计算
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    课程信息
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    适合人群
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    课程评价
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    非官方资料推荐
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    后续课程推荐
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    文件列表
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/conanhujinming/comments-for-awesome-courses/edit/master/docs/人工智能/StanfordCS231N深度学习.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  <h1>StanfordCS231N深度学习</h1>
+                
+                <p>课号：<a href="http://cs231n.stanford.edu/">Stanford CS231N</a></p>
+<p>教授：Feifei Li等</p>
+<p>评论贡献者：<a href="https://github.com/Zhang-Each">Zhang-Each</a></p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Videos：B站上到处都是，还有字幕</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Assignment * 3，每个Assignment工作量都比较大，可以分割成更小的</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> AutoGrader：每个notebook中自带一些测试用例，足够验证代码的正确性</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Slides &amp; Reading：见课程网站</li>
+</ul>
+<h2 id="_1">课程信息</h2>
+<ul>
+<li>深度学习导论课程，非常经典的入门课，从机器学习开始一步步讲到深度学习，神经网络，从MLP逐渐扩展到CNN，RNN，LSTM，GAN，Transformer等模型，对于深度学习中的CV和NLP均有所涉猎</li>
+<li>3个assignment的工作量比较大，使用Python和Jupyter Notebook完成，<strong>大部分内容都是基于numpy从底层开始实现</strong>，少部分任务可以直接使用pytorch等深度学习框架，每个lab的具体内容主要有：</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Assignment编号</th>
+<th>具体内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>实现SVM和线性分类器算法，实现KNN算法，实现神经网络全连接层和激活函数层的前向传播和反向传播算法并搭建一个两层的MLP</td>
+</tr>
+<tr>
+<td>2</td>
+<td>实现卷积层、池化层、标准化层和Dropout层的前向传播和反向传播，并组成一个有标准化层的MLP和一个有三层的CNN，使用pytorch或tensorflow实现一个CNN，测试的task都是图片分类</td>
+</tr>
+<tr>
+<td>3</td>
+<td>实现RNN和LSTM层的前向传播和反向传播并组成循环网络，测试在Image Caption任务中的表现，实现Transformer模型的关键组件并测试Transformer模型在Image Caption任务中的表现，实现GAN并测试其在手写数字生成任务中的表现，实现深度学习可视化相关的一些函数</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>同时作业<strong>配备了相当数量的测试点</strong>，基本每写一个关键函数都会提供一个单元测试来判断有没有写错，一般误差在标准范围内就可以放心进行下一步了</li>
+</ul>
+<h2 id="_2">适合人群</h2>
+<ul>
+<li>深度学习入门并且具有一定的数学基础和Python编程能力的人(主要是numpy等库的api需要掌握的比较熟练)</li>
+</ul>
+<h2 id="_3">课程评价</h2>
+<ul>
+<li>个人认为<strong>深度学习入门神课这一称号当之无愧</strong>，上课内容是一个方面，我认为这门课最大的价值在于它的3个assignment，做完之后不仅对课上讲到的各种概念有了更底层的理解，也非常锻炼Python编程能力，并且能帮助你掌握numpy和pytorch等库中的关键api</li>
+<li>实现一系列神经网络中的经典模型是一件比较有成就感的事情，这些assignment做的过程也非常愉快</li>
+<li>同时notebook中配备的大量测试点也可以提供及时的反馈信息，我认为要完成这些作业很重要的一点就是要将slides中将的公式和实际代码相结合，并且反向传播部分的作业中需要进行大量的求梯度推导，个人认为需要一定的数学能力</li>
+</ul>
+<h2 id="_4">非官方资料推荐</h2>
+<ul>
+<li>深度学习中的经典论文，详情见课程网站</li>
+<li>Github上也有很多公开的课程笔记，可以选择性使用</li>
+<li>给自己的<a href="https://zhang-each.github.io/">博客</a>引个流，博客中的【手写神经网络】系列的博客是我在完成assignments时的一些心得体会和公式推导，希望能够帮到您</li>
+</ul>
+<h2 id="_5">后续课程推荐</h2>
+<ul>
+<li>CS224N 基于深度学习的自然语言处理</li>
+<li>CS224W 图机器学习(实际上是图神经网络导论)</li>
+</ul>
+<h2 id="_6">文件列表</h2>
+<ul>
+<li>StanfordCS231N深度学习</li>
+</ul>
+                
+              
+              
+  <script src="https://giscus.app/client.js"
+        data-repo="beiyuouo/comments-for-awesome-courses"
+        data-repo-id="R_kgDOGR8dHA"
+        data-category="General"
+        data-category-id="DIC_kwDOGR8dHM4B_lvU"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../StanfordCS229%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/" class="md-footer__link md-footer__link--prev" aria-label="Previous: StanfordCS229机器学习" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              StanfordCS229机器学习
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../StanfordCS520%E7%9F%A5%E8%AF%86%E5%9B%BE%E8%B0%B1/" class="md-footer__link md-footer__link--next" aria-label="Next: StanfordCS520知识图谱" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              StanfordCS520知识图谱
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        
+          Made with
+          <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+            Material for MkDocs
+          </a>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.fcfe8b6d.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.b1047164.min.js"></script>
+      
+    
+  </body>
+</html>
